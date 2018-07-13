@@ -4,7 +4,7 @@
 body {
   margin: 0px;
   background-color:#e9ebee;
-  font-family: arial;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-image: url("https://bit.ly/2MRvyoA");
   background-position: right center;
   background-attachment: fixed;
@@ -14,6 +14,10 @@ body {
 
 .links {
   color: white;
+}
+
+.link {
+  padding-right: 10px;
 }
 
 .btn-top {
