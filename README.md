@@ -1,5 +1,7 @@
 # AceBook
 
+[![Build Status](https://travis-ci.org/simone-smith/acebook-off-the-rails.svg?branch=master)](https://travis-ci.org/simone-smith/acebook-off-the-rails)
+
 Acebook is a clone of Facebook built with Ruby on Rails as a group project during weeks 8-9 of the Makers Academy bootcamp course. To run the app on your machine, download the files, run `bundle install` to install the gems, run `rails db:migrate`, fire up the `rails server` and navigate to localhost:3000 in your browser. It is also deployed to Heroku at https://blooming-meadow-10813.herokuapp.com/.
 
 To run the tests, make sure Rspec is installed (`bundle install`) and run `rspec` from the command line.
