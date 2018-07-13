@@ -20,6 +20,22 @@ body {
   padding-right: 10px;
 }
 
+.links a:link {
+  color: #333333;
+}
+
+.links a:visited {
+  color: #FFFFFF;
+}
+
+.links a:hover {
+  color: #CCCCCC;
+}
+
+.links a:active {
+  color: #333333;
+}
+
 .btn-top {
     background-color:#3b5998;
     border: none;
