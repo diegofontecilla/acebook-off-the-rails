@@ -13,19 +13,27 @@
             <div class="rightofright">
               <div class="links">
               <% if logged_in? %>
-              <%= link_to "New Post", new_user_post_url(@current_user) %>
-              <%= link_to "Log Out", logout_path, method: :delete %>
+              <div class="link">
+                <%= link_to "New Post", new_user_post_url(@current_user) %>
+              </div>
+              <div class="link">
+                <%= link_to "Profile", user_path(@current_user) %>
+              </div>
+              <div class="link">
+                <%= link_to "Timeline", user_posts_path(@current_user) %>
+              </div>
+              <div class="link">
+                <%= link_to "Log Out", logout_path, method: :delete %>
+              </div>
               <% else %>
-              <%= link_to "Sign Up", signup_path %>
-              <%= link_to "Log In", login_path %>
+              <div class="link">
+                <%= link_to "Sign Up", signup_path %>
+              </div>
+              <div class="link">
+                <%= link_to "Log In", login_path %>
+              </div>
               <% end %>
-            </div>
-                <div class="right-icon fr"><button class="btn btn-top"><i class="fa fa-users fa-2x" aria-hidden="true"></i></button></div>
-                <div class="right-icon messages"><button class="btn btn-top"><i class="fa fa-comment fa-2x" aria-hidden="true"></i></button></div>
-                <div class="right-icon notification"><button class="btn btn-top"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></button></div>
-                <p>|</p>
-                <div class=" right-icon privacy"><button class="btn btn-top"><i class="fa fa-question-circle fa-2x" aria-hidden="true"></i></button></div>
-                <div class=" right-icon down"></div>
+              </div>
             </div>
         </div>
 </nav>
