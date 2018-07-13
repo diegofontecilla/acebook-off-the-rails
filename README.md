@@ -99,8 +99,7 @@ We worked in pairs, and switched regularly to ensure that everyone had a chance 
 
 ## Future improvements
 
-Given more time, we would have liked to implement more features, such as groups, albums and a chat
-Newsfeed, chat albums groups
+Given more time, we would have liked to implement more features, such as groups, albums and chat functionality to our app.
 
 ## Contributors
 
