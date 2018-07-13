@@ -12,7 +12,7 @@ RSpec.feature 'Updating user profile' do
     click_link 'Edit'
     fill_in "Name", with: "Changed"
    click_button "Submit"
-   expect(page).to have_content "Changed's Profile"
+   expect(page).to have_content "Changed"
   end
 
   scenario "Users can update their password" do
