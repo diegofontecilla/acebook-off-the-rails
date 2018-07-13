@@ -1,21 +1,27 @@
 <% provide(:title, @title) %>
-<div class="row">
-  <aside class="col-md-4">
-    <section class="user_info">
-      <h1><%= @user.name %></h1>
-      <!-- link to profile page  -->
-    </section>
-      <!-- links to user profiles from profile photos? -->
-  </aside>
-  <div class="col-md-8">
-    <h3><%= @title %></h3>
-    <% if @users.any? %>
-      <ul class="users follow">
-        <% @users.each do |user| %>
-          <p><%= user.name %></p>
-        <% end %>
-      </ul>
-      <%= will_paginate %>
-    <% end %>
-  </div>
-</div>
+<div id="user-profile-2" class="user-profile">
+		<div class="tabbable">
+
+			<div class="tab-content no-border padding-24">
+				<div id="home" class="tab-pane in active">
+					<div class="row">
+						<div class="col-xs-12 col-sm-3 center">
+							<span class="profile-picture">
+								<img class="editable img-responsive">
+                <%= @user.name %>
+                <%= image_tag(@user.avatar, size: "300x300") %>
+              </span>
+            </div>
+              <div class="col-md-8">
+            <h3><%= @title %>:</h3>
+            <% if @users.any? %>
+              <ul class="users follow">
+                <% @users.each do |user| %>
+                  <p><%= image_tag(user.avatar, size: "50x50") %>
+										<%= link_to "#{user.name}", user_path(user.id) %></p>
+                <% end %>
+              </ul>
+              <%= will_paginate %>
+            <% end %>
+          </div>
+        </div>
