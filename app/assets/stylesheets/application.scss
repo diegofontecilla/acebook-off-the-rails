@@ -20,6 +20,19 @@ body {
   padding-right: 10px;
 }
 
+a:link {
+  color: #333333;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #CCCCCC;
+}
+a:active {
+  color: #333333;
+}
+
 .btn-top {
     background-color:#3b5998;
     border: none;
