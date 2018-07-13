@@ -2,9 +2,19 @@
 
 [![Build Status](https://travis-ci.org/simone-smith/acebook-off-the-rails.svg?branch=master)](https://travis-ci.org/simone-smith/acebook-off-the-rails)
 
-Acebook is a clone of Facebook built with Ruby on Rails as a group project during weeks 8-9 of the Makers Academy bootcamp course. To run the app on your machine, download the files, run `bundle install` to install the gems, run `rails db:migrate`, fire up the `rails server` and navigate to localhost:3000 in your browser. It is also deployed to Heroku at https://blooming-meadow-10813.herokuapp.com/.
+Acebook is a clone of Facebook built with Ruby on Rails as a group project during weeks 8-9 by team Off The Rails of the May 2018 cohort at Makers Academy.
 
-To run the tests, make sure Rspec is installed (`bundle install`) and run `rspec` from the command line.
+
+## Getting Started
+
+To run the app on your machine, download the files, run `bundle install` to install the gems, run `rails db:create`, `rails db:migrate`, fire up the `rails server` and navigate to localhost:3000 in your browser.
+
+It is also deployed to Heroku at https://blooming-meadow-10813.herokuapp.com/.
+
+To run the tests, make sure RSpec is installed (`bundle install`) and run `rspec` from the command line.
+
+
+## User Stories
 
 Acebook satisfies the following User Stories:
 
@@ -50,4 +60,49 @@ So that my friends can know me better
 I can have a user profile page with my photo, bio and posts
 ```
 
-MORE STUFF 1
+
+## Screenshots
+
+![Welcome page](https://github.com/simone-smith/acebook-off-the-rails/blob/master/app/assets/images/:welcome.png)
+
+![Newsfeed](https://github.com/simone-smith/acebook-off-the-rails/blob/master/app/assets/images/:newsfeed.png)
+
+![Profile](https://github.com/simone-smith/acebook-off-the-rails/blob/master/app/assets/images/:profile.png)
+
+
+## Technologies used
+
+- Ruby 2.5.0
+- Rails (5.2.0)
+- Rspec-rails (3.5)
+- Capybara (2.13)
+- PostgreSQL
+- Acts As Votable
+- Bootstrap / CSS
+- Simplecov
+- Rubocop
+- Travis
+- Heroku
+
+
+## Group workflow
+
+We held stand ups every morning to discuss our achievements and/or blockages from the day before, plans for the day and allocate tickets. We used Trello to track our work and split user stories into smaller tasks, running two day sprints to assess our current progress and evaluate which features to focus on implementing.
+
+All pull requests had to be reviewed and approved by at least two other members of the team before they could be merged into the master.
+
+We worked in pairs, and switched regularly to ensure that everyone had a chance to work across all areas of the codebase.
+
+
+## Future improvements
+
+Given more time, we would have liked to implement more features, such as groups, albums and a chat
+Newsfeed, chat albums groups
+
+## Contributors
+
+- [Diego Fontecilla](https://github.com/diegofontecilla)
+- [Lucia Gore](https://github.com/luciagore)
+- [Nick Richardson](https://github.com/n-ckr-ch-rds-n)
+- [Simone Smith](https://github.com/simone-smith)
+- [Matt Wareing](https://github.com/mdwareing)
