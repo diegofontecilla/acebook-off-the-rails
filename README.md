@@ -63,10 +63,13 @@ I can have a user profile page with my photo, bio and posts
 
 ## Screenshots
 
+Welcome page
 ![Welcome page](https://github.com/simone-smith/acebook-off-the-rails/blob/finalise_readme/app/assets/images/welcome.png)
 
+Newsfeed
 ![Newsfeed](https://github.com/simone-smith/acebook-off-the-rails/blob/finalise_readme/app/assets/images/newsfeed.png)
 
+Profile page
 ![Profile](https://github.com/simone-smith/acebook-off-the-rails/blob/finalise_readme/app/assets/images/profile.png)
 
 
