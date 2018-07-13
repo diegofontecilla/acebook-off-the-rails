@@ -37,8 +37,8 @@
     <% if post.user.id == current_user.id %>
     <%= link_to('Delete', "/users/#{current_user.id}/posts/#{post.id}", method: :delete) %>
     <% end %>
-    <p>Likes: <%= post.votes_for.size %></p>
-    <p><%= link_to('Like', "/users/#{current_user.id}/posts/#{post.id}/likes", method: :post) %>
+    <p><%= link_to('<i class="fa fa-thumbs-up fa-lg"></i>'.html_safe, "/users/#{current_user.id}/posts/#{post.id}/likes", method: :post) %></p>
+    <p><i class="fa fa-thumbs-up"></i><%= post.votes_for.size %></p>
     <p>Comments:</p>
     <% post.comments.each do |message| %>
       <p style="color: blue;"><%= message.user.name %></p>
